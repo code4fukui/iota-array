@@ -1,6 +1,7 @@
-var iota = require("../iota.js")
+import iota from "../iota.js"
+import tape from "tape"
 
-require("tape")("iota", function(t) {
+tape("iota", function(t) {
 
   function eq(a,b) {
     t.equals(a.join(), b.join())

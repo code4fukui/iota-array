@@ -6,12 +6,11 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
   "devDependencies": {
-    "tape": "^2.12.3"
+    "tape": "^5.6.1"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
@@ -29,5 +28,6 @@
   "author": "Mikola Lysenko",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "cce24a4f0e1a6a8d60faa4f597c600de13d46145"
+  "gitHead": "cce24a4f0e1a6a8d60faa4f597c600de13d46145",
+  "type": "module"
 }
